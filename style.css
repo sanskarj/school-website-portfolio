@@ -422,3 +422,53 @@ header{
       transition: all .3s;
 
   }
+.chapterwise-solution-link:hover{
+      background-color: #3e2723;
+      color: white;
+  }
+  .chapterwise-solution-column{
+      margin-bottom: 4.5rem;
+  }
+  .heading-solution{
+      border-left: 1.5px solid #3e2723;
+      width: 30%;
+      margin-bottom: 3rem;
+  }
+  .book-solution-link{
+      display: block;
+      width: 100%;
+      padding: 0.6rem 0rem;
+      border-radius: 1.5rem;
+      border: 1px solid #3e2723;
+      color: #3e2723;
+      transition: all .3s;
+
+  }
+  .book-solution-column{
+      margin-bottom: 3rem;
+  }
+  .book-solution-link:hover{
+      background-color: #3e2723;
+      color: white;
+  }
+  .extra-que-item{
+      width: 100%;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #3e2723;
+      transition: all .3s;
+      padding: 1rem 1.4rem;
+      
+      border-top-left-radius: 1.4rem;
+      border-top-right-radius: 1.4rem;
+  }
+  .extra-que-item:hover{
+      background-color: #3e2723;
+      
+  }
+  .extra-que-item:hover .extra-que-link{
+      color: white;
+  }
+.extra-que-link{
+    color: #3e2723;
+    width: 100%;
+}
