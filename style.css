@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+   
+   
+  }
+  .container-fluid{
+      position: relative;
+     
+  }
+  
+.link-1{
+    color: white !important;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin-right: 5rem;
+    transition: all .3s;
+    
+    
+}
+
+
+
+.navbar-header{
+    height: 8rem;
+    background-color: #795548;
+    
+    
+
+
+
+}
+.sticky-top{
+    position: relative !important;
+}
+.image-2{
+    height: 12rem;
+    width: 12rem;
+    margin-left: -2rem;
+}
+.navbar-header{
+    border-bottom: 2px solid white;
+    
+}
+.link-2{
+   
+    border-bottom: 0px solid white;
+    border: 1px solid white;
+    display: block;
+    padding: 1rem 3rem !important;
+    border-radius: 1rem;
+}
+.link-3{
+    display: block;
+    padding: 1rem !important;
+    border-radius: 1rem;
+    background-color: white;
+    color: #795548 !important;
+
+
+}
+.icon{
+    font-size: 1.4rem !important;
+    font-weight: 200 !important;
+}
+
