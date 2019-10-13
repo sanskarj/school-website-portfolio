@@ -638,4 +638,59 @@ header{
     background-color: #3e2723;
     color: white;
 }  
+.ask-row{
+  margin-top: 3rem;
+}
+.sign-up-row{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right bottom,#795548a8 ,#79554854) ,url(./gades-photography-540989-unsplash.jpg);
+    color: white;
+    
+}
+.sign-up-heading{
+    font-family: cursive;
+}
+.btn-text-sign-up{
+    color: white !important;
+}
+.explore-heading{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: cursive;
+    color: #3e2723;
+}
+.explore-row{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.explore-column{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(189deg,white 0%,white 60%,#3e2723 60%);
+    color: white;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    border: 1.5px solid #3e2723;
+    box-shadow: 0 0 10px #3e2723;
+    transition: all .4s;
+    cursor: pointer;
+   
+}
+.explore-column:hover{
+    transform: translateY(-20px) scale(1.1);
+    
+}
+.heading-more{
+    font-family: cursive;
+}
+.data-row-4{
+    margin-bottom: 3rem;
+}
 
