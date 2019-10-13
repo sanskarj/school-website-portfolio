@@ -128,4 +128,114 @@ header{
     border-bottom: 1px solid black;
 
 }
+.popup-container-2{
+    position: absolute;
+    top: 40%;
+    display: none;
+    opacity: 0;
+    left:25%;
+    
+    height: auto;
+    width: 70%;
+    color: #795548;
+    padding: 1rem 0rem;
+    
+    background: linear-gradient(to right bottom,#cbff90ec,#cbff90b7),url(./neonbrand-426918-unsplash-edited.jpg);
+    box-shadow: 0 0 10px black;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+   
+}
+.btn-view-more,.btn-close,.btn-close-1{
+    background-color: #795548 !important;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    padding: 0.5rem 2rem;
+    color: white;
+    transition: all .4s;
 
+}
+.btn-view-more:hover{
+    transform: translateY(-4px);
+}
+.btn-view-more:active{
+    transform: translateY(2px);
+}
+.exam-container-1{
+    margin-bottom: 1.5rem;
+}
+.culture-comp-link,.personel-comp-link{
+    color: #795548;
+}
+.culture-comp-item,.personel-comp-item{
+    margin-bottom: 1.3rem;
+}
+.part-column-1-1{
+    margin-bottom: 1rem;
+
+}
+.part-column-1-3{
+    margin-bottom: 1.5rem;
+
+}
+.sidebar-row{
+    margin-top: 2rem;
+    
+    width: 100%;
+    
+    
+
+    
+}
+.sidebar-link{
+    color: #795548;
+    font-size: 1.5rem;
+    padding-bottom: 1.3rem;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+    transition: all .4s;
+
+}
+.sidebar-link:hover,.sidebar-link:active,.sidebar-link:visited{
+    border-bottom: 2px solid #795548;
+    color: #795548;
+}
+.sidebar-link-active{
+    border-bottom: 2px solid #795548;
+    
+}
+.image-1{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 0.3rem;
+    transition: all .3s;
+    
+    
+}
+.data-row{
+    margin-top: 4rem;
+    z-index: -1000;
+   
+}
+.subject-name{
+    margin-left: 1rem;
+}
+.sub-sidebar-link{
+    display: block;
+    color: #795548;
+    font-size: 1.2rem;
+}
+.sub-sidebar-link:hover{
+    color: #3e2723;
+    font-weight: 800;
+}
+.sub-sidebar-item{
+    margin-bottom: 1rem;
+    transition: all .3s;
+}
+.image-active{
+    border-left: 2px solid #795548;
+}
+.sub-sidebar-item:hover .sub-sidebar-link .image-1{
+    border-left: 2px solid #795548;
+}
