@@ -472,3 +472,52 @@ header{
     color: #3e2723;
     width: 100%;
 }
+.data-row-3{
+    display: none;
+    opacity: 0;
+}
+.data-row-4{
+    display: none;
+    opacity: 0;
+}
+
+.syllabus-row{
+    width: 100%;
+}
+.data-row-4{
+    margin-top: 7rem;
+}
+.syllabus-column{
+    display: flex;
+    height: 15rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:2rem 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom: 2px solid #3e2723;
+    box-shadow: 0 0 10px black;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+.syllabus-column:hover{
+    transform: scale(1.4);
+}
+
+.syllabus-column-1{
+    background: linear-gradient(to right bottom,#795548a8 ,#79554854) ,url(./inja-pavlic-351550-unsplash-again-edit.jpg);
+
+}
+.syllabus-column-2{
+    background: linear-gradient(to right bottom,#795548a8 ,#79554854) ,url(./ivo-rainha-764590-unsplash-edited-again.jpg);
+}
+.syllabus-column-3{
+    background: linear-gradient(to right bottom,#795548a8 ,#79554854) ,url(./james-qualtrough-796401-unsplash-edited-again.jpg);
+
+}
+.syllabus-column-4{
+    background: linear-gradient(to right bottom,#795548a8 ,#79554854) ,url(./vasily-koloda-620886-unsplash-edited.jpg);
+}
