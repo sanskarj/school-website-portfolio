@@ -591,4 +591,51 @@ header{
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
   }
+  .que-ans-column{
+      height: 4rem;
+      display: flex;
+     justify-content: space-around;
+     
+     align-items: center;
+
+
+  }
+.data-row-5-row{
+    width: 100%;
+}
+.data-row-5{
+    opacity: 0;
+    display: none;
+}
+
+.effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 18px;
+    padding: 20px 0px;
+    width: 150px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+.btn-see-solution{
+    display: block;
+    padding: 1rem 2rem;
+    border: 1px solid #3e2723;
+    border-top-left-radius: 1.4rem;
+    border-top-right-radius: 1.4rem;
+    background-color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+.btn-see-solution:hover{
+    background-color: #3e2723;
+    color: white;
+}  
 
